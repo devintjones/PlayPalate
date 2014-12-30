@@ -8,7 +8,7 @@ from nltk.stem.porter import PorterStemmer
 
 from sklearn.metrics.pairwise import euclidean_distances,cosine_similarity
 
-from test_postgres import *
+from postgres import *
 from s3_upload import *
 
 

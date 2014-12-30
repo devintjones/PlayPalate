@@ -1,4 +1,4 @@
-from test_postgres import *
+from postgres import *
 
 import requests
 import os

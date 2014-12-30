@@ -14,7 +14,7 @@ import requests
 from flask import Flask, request, redirect, render_template, url_for,session,jsonify
 from flask_oauthlib.client import OAuth, OAuthException
 
-from test_postgres import *
+from postgres import *
 from rovi import *
 from s3_upload import *
 from make_playlist import *
